@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+</head>
+<body>
+
+<style>
+    html{
+        background-color: #333333;
+    }
+</style>
+
+<div class="container">
+
+
+    <div class="row" style="padding-top: 40%;">
+            <img src="img/res002.jpg" width="100%" >
+    </div>
+
+</div>
+
+
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $('document').ready(function()
+    {
+        $('.row').on('click',function()
+        {
+            history.go(-1);
+        });
+
+    });
+</script>
+</body>
+</html>
